@@ -6,11 +6,10 @@ permalink: /blog/
 
 <h1>Все записи</h1>
 <div class="journal-list">
-<ul>
   {% for post in site.posts %}
-    <li>
+    <div class="item">
       <a href="{{ post.url }}">{{ post.title }}</a>
       — {{ post.date | date: "%d.%m.%Y" }}
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
