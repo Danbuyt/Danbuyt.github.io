@@ -1,4 +1,4 @@
-
+/* Главная*/
 .journal-list {
     background: #631813;
     padding: 3px;
@@ -43,4 +43,58 @@
     .journal-list {
         max-width: 100%;
     }
+    
+}
+/* ===== Стили для отдельных постов ===== */
+.post {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.post-header {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #797f96;
+}
+
+.post-header h1 {
+    font-size: 28px;
+    color: #232737;
+    margin-bottom: 5px;
+}
+
+.post-meta {
+    font-size: 12px;
+    color: #595d60;
+}
+
+.post-content {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #797f96;
+    font-size: 14px;
+}
+
+.post-footer a {
+    color: #44495c;
+    text-decoration: none;
+}
+
+.post-footer a:hover {
+    color: #000;
+    text-decoration: underline;
 }
