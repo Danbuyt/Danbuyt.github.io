@@ -5,7 +5,7 @@ permalink: /blog/
 ---
 
 <h1>Все записи</h1>
-
+<div class="journal-list">
 <ul>
   {% for post in site.posts %}
     <li>
